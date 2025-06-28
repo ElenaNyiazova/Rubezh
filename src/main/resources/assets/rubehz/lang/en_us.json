@@ -1,0 +1,18 @@
+{
+  "item.rubehz.frezzer_gun": "Frezzer GUN",
+  "item.rubehz.fire_gungun": "Fire GUNGUN",
+  "item.rubehz.katana_test": "Katana TEST",
+  "item.rubehz.frezzer_gunnostat": "Frezzer GUNNOSTAT",
+  "gui.rubehz.interface_level.button_empty5": "",
+  "gui.rubehz.interface_level.button_empty6": "",
+  "gui.rubehz.interface_level.button_empty3": "",
+  "gui.rubehz.interface_level.button_empty4": "",
+  "gui.rubehz.interface_level.button_empty": "",
+  "gui.rubehz.interface_level.button_empty1": "",
+  "gui.rubehz.interface_level.button_empty2": "",
+  "gui.rubehz.interface_level.label_sila": "Сила:",
+  "gui.rubehz.interface_level.label_ochki_uluchshieniia": "Очки улучшения",
+  "gui.rubehz.interface_level.tooltip_sila": "Сила",
+  "key.rubehz.j": "blablabla",
+  "gui.rubehz.interface_level.label_intieliekt": "интелект"
+}

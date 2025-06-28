@@ -1,0 +1,144 @@
+[23Jun2025 22:01:00.885] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 5, --assetsDir, /Users/helen/.mcreator/gradle/caches/forge_gradle/assets, --gameDir, ., --fml.forgeVersion, 47.3.0, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412]
+[23Jun2025 22:01:00.886] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Eclipse Adoptium; OS Mac OS X arch aarch64 version 15.5
+[23Jun2025 22:01:00.922] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: Loading ImmediateWindowProvider fmlearlywindow
+[23Jun2025 22:01:01.025] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.6
+[23Jun2025 22:01:01.059] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.5
+[23Jun2025 22:01:01.066] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.4
+[23Jun2025 22:01:01.071] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.3
+[23Jun2025 22:01:01.078] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.2
+[23Jun2025 22:01:01.083] [main/INFO] [EARLYDISPLAY/]: Trying GL version 4.1
+[23Jun2025 22:01:01.092] [main/INFO] [EARLYDISPLAY/]: Requested GL version 4.1 got version 4.1
+[23Jun2025 22:01:01.156] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/helen/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23121!/ Service=ModLauncher Env=CLIENT
+[23Jun2025 22:01:01.161] [pool-2-thread-1/INFO] [EARLYDISPLAY/]: GL info: Apple M4 GL version 4.1 Metal - 89.4, Apple
+[23Jun2025 22:01:01.274] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/helen/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.20.1-47.3.0/d7ebc62120f202109e300e084ca1a31a7b946a62/javafmllanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Jun2025 22:01:01.275] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/helen/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.20.1-47.3.0/1bf3e845ea0ce750096da8c71c8364b188ab74d4/lowcodelanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Jun2025 22:01:01.275] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/helen/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.20.1-47.3.0/6093682e943ddccbabf70539319d7f2fe64db2e7/mclanguage-1.20.1-47.3.0.jar is missing mods.toml file
+[23Jun2025 22:01:01.276] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/helen/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.20.1-47.3.0/3b6be96aba3e323f3c918e8ef6a96312d82d76ad/fmlcore-1.20.1-47.3.0.jar is missing mods.toml file
+[23Jun2025 22:01:01.297] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[23Jun2025 22:01:01.692] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, /Users/helen/.mcreator/gradle/caches/forge_gradle/assets, --assetIndex, 5]
+[23Jun2025 22:01:02.128] [main/WARN] [oshi.util.platform.mac.SysctlUtil/]: Failed sysctl call: hw.cpufrequency, Error code: 2
+[23Jun2025 22:01:03.345] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 188 Datafixer optimizations took 51 milliseconds
+[23Jun2025 22:01:03.883] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/helen/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23184!/assets/.mcassetsroot' uses unexpected schema
+[23Jun2025 22:01:03.883] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/Users/helen/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.3.0_mapped_official_1.20.1/forge-1.20.1-47.3.0_mapped_official_1.20.1-recomp.jar%23184!/data/.mcassetsroot' uses unexpected schema
+[23Jun2025 22:01:03.888] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[23Jun2025 22:01:03.889] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[23Jun2025 22:01:03.915] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[23Jun2025 22:01:04.074] [Render thread/WARN] [oshi.util.platform.mac.SysctlUtil/]: Failed sysctl call: hw.cpufrequency, Error code: 2
+[23Jun2025 22:01:04.118] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.0, for MC 1.20.1 with MCP 20230612.114412
+[23Jun2025 22:01:04.119] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.0 Initialized
+[23Jun2025 22:01:04.441] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[23Jun2025 22:01:04.614] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[23Jun2025 22:01:04.665] [Worker-Main-3/INFO] [net.minecraft.client.gui.font.providers.UnihexProvider/]: Found unifont_all_no_pua-15.0.06.hex, loading
+[23Jun2025 22:01:04.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[23Jun2025 22:01:05.789] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[23Jun2025 22:01:05.789] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[23Jun2025 22:01:05.830] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device CoreAudio Default
+[23Jun2025 22:01:05.831] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[23Jun2025 22:01:05.889] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x2 minecraft:textures/atlas/blocks.png-atlas
+[23Jun2025 22:01:05.894] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/signs.png-atlas
+[23Jun2025 22:01:05.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/shield_patterns.png-atlas
+[23Jun2025 22:01:05.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x2 minecraft:textures/atlas/banner_patterns.png-atlas
+[23Jun2025 22:01:05.895] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x2 minecraft:textures/atlas/armor_trims.png-atlas
+[23Jun2025 22:01:05.897] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x2 minecraft:textures/atlas/chest.png-atlas
+[23Jun2025 22:01:05.897] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x64x2 minecraft:textures/atlas/decorated_pot.png-atlas
+[23Jun2025 22:01:05.897] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/shulker_boxes.png-atlas
+[23Jun2025 22:01:05.897] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x2 minecraft:textures/atlas/beds.png-atlas
+[23Jun2025 22:01:05.964] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[23Jun2025 22:01:05.987] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.0 Target: 47.4.0
+[23Jun2025 22:01:06.012] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[23Jun2025 22:01:06.013] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[23Jun2025 22:01:06.013] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[23Jun2025 22:01:07.392] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: java.lang.RuntimeException: Failed to parse into SignedJWT: 0
+[23Jun2025 22:01:17.469] [Render thread/INFO] [net.minecraftforge.registries.GameData/REGISTRIES]: Injecting existing registry data into this CLIENT instance
+[23Jun2025 22:01:18.084] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Jun2025 22:01:18.119] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[23Jun2025 22:01:18.307] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[23Jun2025 22:01:18.307] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Jun2025 22:01:18.396] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Jun2025 22:01:19.276] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[23Jun2025 22:01:19.276] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[23Jun2025 22:01:19.415] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 5%
+[23Jun2025 22:01:19.634] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Jun2025 22:01:19.642] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 1230 ms
+[23Jun2025 22:01:19.689] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[23Jun2025 22:01:19.690] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[23Jun2025 22:01:19.713] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[23Jun2025 22:01:19.994] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[23Jun2025 22:01:20.011] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8e502d08] logged in with entity id 102 at (-3.996486012695498, -57.0, 5.723301260608424)
+[23Jun2025 22:01:20.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[23Jun2025 22:01:20.180] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 41 advancements
+[23Jun2025 22:01:31.284] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[23Jun2025 22:01:31.290] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[23Jun2025 22:01:31.297] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[23Jun2025 22:01:31.298] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[23Jun2025 22:01:32.140] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
+[23Jun2025 22:01:32.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
+[23Jun2025 22:01:32.143] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[23Jun2025 22:01:32.184] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jun2025 22:01:32.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jun2025 22:01:32.185] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jun2025 22:01:32.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[23Jun2025 22:01:32.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[23Jun2025 22:01:32.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[23Jun2025 22:01:32.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Новый мир (1)): All chunks are saved
+[23Jun2025 22:01:32.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jun2025 22:01:32.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jun2025 22:01:32.553] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Jun2025 22:01:38.051] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level Новый мир
+[23Jun2025 22:01:38.051] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[23Jun2025 22:01:38.746] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[23Jun2025 22:01:38.758] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1271 advancements
+[23Jun2025 22:01:44.595] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.20.1
+[23Jun2025 22:01:44.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[23Jun2025 22:01:44.610] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file ./saves/Новый мир/serverconfig/forge-server.toml is not correct. Correcting
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[23Jun2025 22:01:44.611] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.advertiseDedicatedServerToLan was corrected from null to its default, true. 
+[23Jun2025 22:01:44.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[23Jun2025 22:01:44.914] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 0%
+[23Jun2025 22:01:45.260] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Подготовка области возрождения: 55%
+[23Jun2025 22:01:45.473] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[23Jun2025 22:01:45.474] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 5, from 10
+[23Jun2025 22:01:45.474] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[23Jun2025 22:01:45.483] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 751 ms
+[23Jun2025 22:01:45.774] [Netty Local Client IO #1/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[23Jun2025 22:01:45.775] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8cd64bf9] logged in with entity id 158 at (2.5, -60.0, 9.5)
+[23Jun2025 22:01:45.780] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev присоединился к игре
+[23Jun2025 22:01:45.898] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2 advancements
+[23Jun2025 22:01:57.222] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[23Jun2025 22:01:57.224] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[23Jun2025 22:01:57.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[23Jun2025 22:01:57.226] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[23Jun2025 22:02:56.469] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/300, l='ServerLevel[Новый мир]', x=0.40, y=-62.00, z=11.60] died, message: 'Крестьянин был убит Dev'
+[23Jun2025 22:02:56.476] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/300, l='ClientLevel', x=0.30, y=-61.61, z=11.70] died, message: 'Крестьянин умер'
+[23Jun2025 22:02:56.479] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 30 advancements
+[23Jun2025 22:03:04.418] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/360, l='ServerLevel[Новый мир]', x=0.40, y=-62.00, z=11.60] died, message: 'death.attack.player.player'
+[23Jun2025 22:03:04.420] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/360, l='ClientLevel', x=0.30, y=-61.61, z=11.70] died, message: 'Крестьянин умер'
+[23Jun2025 22:03:32.269] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/385, l='ServerLevel[Новый мир]', x=0.68, y=-62.00, z=11.68] died, message: 'death.attack.player.player'
+[23Jun2025 22:03:32.271] [Render thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Крестьянин'/385, l='ClientLevel', x=0.68, y=-62.00, z=11.68] died, message: 'Крестьянин умер'
+[23Jun2025 22:03:55.019] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev получил достижение «[Охотник на монстров]»
+[23Jun2025 22:03:55.023] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev получил достижение «[Охотник на монстров]»
+[23Jun2025 22:03:55.025] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 33 advancements
+[23Jun2025 22:03:59.721] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[23Jun2025 22:03:59.729] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[23Jun2025 22:03:59.736] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[23Jun2025 22:03:59.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[23Jun2025 22:04:00.630] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Отключение
+[23Jun2025 22:04:00.630] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev покинул игру
+[23Jun2025 22:04:00.636] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[23Jun2025 22:04:00.674] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[23Jun2025 22:04:00.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[23Jun2025 22:04:00.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[23Jun2025 22:04:01.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:overworld
+[23Jun2025 22:04:01.403] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_end
+[23Jun2025 22:04:01.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Новый мир]'/minecraft:the_nether
+[23Jun2025 22:04:01.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Новый мир): All chunks are saved
+[23Jun2025 22:04:01.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[23Jun2025 22:04:01.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[23Jun2025 22:04:01.429] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[23Jun2025 22:04:03.548] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!

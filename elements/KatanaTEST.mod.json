@@ -1,0 +1,42 @@
+{
+  "_fv": 73,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "katanatest",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Katana TEST",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "COMBAT"
+      }
+    ],
+    "efficiency": 4.0,
+    "attackSpeed": 3.3000000000000003,
+    "enchantability": 2,
+    "damageVsEntity": 1.0,
+    "usageCount": 1000,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "Items.GOLDEN_APPLE#0"
+      }
+    ],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": true,
+    "onEntityHitWith": {
+      "name": "KatanaTESTPriUdariePoSushchnostiInstrumientom"
+    }
+  }
+}

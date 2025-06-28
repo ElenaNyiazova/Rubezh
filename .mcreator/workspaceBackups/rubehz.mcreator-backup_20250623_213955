@@ -1,0 +1,588 @@
+{
+  "mod_elements": [
+    {
+      "name": "J",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "j",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/network/JMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Cila",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cila",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/CilaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Bj",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "interface_level",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/client/gui/BjScreen.java",
+          "src/main/java/net/mcreator/rubehz/network/BjButtonMessage.java",
+          "src/main/java/net/mcreator/rubehz/world/inventory/BjMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "JPriNazhatiiKlavishi",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "j_pri_nazhatii_klavishi",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/JPriNazhatiiKlavishiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedura"
+    },
+    {
+      "name": "Numberskillpoints",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numberskillpoints",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumberskillpointsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Numbercila",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numbercila",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumbercilaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Numberintelekt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numberintelekt",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumberintelektProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Cupitintelekt",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cupitintelekt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/CupitintelektProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "KatanaTESTPriUdariePoSushchnostiInstrumientom",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_test_pri_udarie_po_sushchnosti_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/KatanaTESTPriUdariePoSushchnostiInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/procedura/Orudia"
+    },
+    {
+      "name": "KatanaTEST",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "katana_test",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/item/KatanaTESTItem.java",
+          "src/main/resources/assets/rubehz/models/item/katana_test.json"
+        ]
+      }
+    },
+    {
+      "name": "FrezzerKoghdaSnariadPopadaietVSushchnost",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frezzer_koghda_snariad_popadaiet_v_sushchnost",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/FrezzerKoghdaSnariadPopadaietVSushchnostProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/Orudia"
+    },
+    {
+      "name": "Frezzer",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frezzer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/entity/FrezzerEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "FrezzerGUNPriShchielchkiePKM",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frezzer_gun_pri_shchielchkie_pkm",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/FrezzerGUNPriShchielchkiePKMProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/Orudia"
+    },
+    {
+      "name": "Numberspeed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numberspeed",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumberspeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Numberliteracy",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numberliteracy",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumberliteracyProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Numbersurvivability",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numbersurvivability",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumbersurvivabilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Numberwillpower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numberwillpower",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumberwillpowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Willpower",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "willpower",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/WillpowerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Numberagility",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "numberagility",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/NumberagilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Speed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/SpeedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Liter",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/LiterProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Surv",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "surv",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/SurvProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "Agility",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agility",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/procedures/AgilityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/procedura/numberGUI"
+    },
+    {
+      "name": "FrezzerGUN",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frezzer_gun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/rubehz/item/FrezzerGUNItem.java",
+          "src/main/resources/assets/rubehz/models/item/frezzer_gun.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "strength",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "skill_points",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "100.0"
+    },
+    {
+      "name": "intelligence",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "agility",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "number_cila",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": ""
+    },
+    {
+      "name": "number_skill_points",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "Number_intelligence",
+      "type": "string",
+      "scope": "player_persistent",
+      "value": "\"\""
+    },
+    {
+      "name": "speed",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "literacy",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "survivability",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    },
+    {
+      "name": "willpower",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "1.0"
+    }
+  ],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:KatanaTEST"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.rubehz.frezzer_gun": "Frezzer GUN",
+      "item.rubehz.katana_test": "Katana TEST",
+      "gui.rubehz.interface_level.button_empty5": "",
+      "gui.rubehz.interface_level.button_empty6": "",
+      "gui.rubehz.interface_level.button_empty3": "",
+      "gui.rubehz.interface_level.button_empty4": "",
+      "gui.rubehz.interface_level.button_empty": "",
+      "gui.rubehz.interface_level.button_empty1": "",
+      "gui.rubehz.interface_level.button_empty2": "",
+      "gui.rubehz.interface_level.label_sila": "Сила:",
+      "gui.rubehz.interface_level.label_ochki_uluchshieniia": "Очки улучшения",
+      "gui.rubehz.interface_level.tooltip_sila": "Сила",
+      "key.rubehz.j": "blablabla",
+      "gui.rubehz.interface_level.label_intieliekt": "интелект"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "procedura",
+        "children": [
+          {
+            "name": "numberGUI",
+            "children": []
+          },
+          {
+            "name": "Orudia",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rubehz",
+    "modName": "rubehz",
+    "version": "1.0.0",
+    "author": "helen, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.rubehz"
+  },
+  "mcreatorVersion": 202400452410
+}

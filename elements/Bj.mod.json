@@ -1,0 +1,270 @@
+{
+  "_fv": 73,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 210,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sila",
+          "text": {
+            "fixedValue": "Сила",
+            "name": "Numbercila"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 49,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_intieliekt",
+          "text": {
+            "fixedValue": "интелект",
+            "name": "Numberintelekt"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 73,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Cila"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 40,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_ochki_uluchshieniia",
+          "text": {
+            "fixedValue": "Очки улучшения",
+            "name": "Numberskillpoints"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 222,
+          "y": 44,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty1",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Cupitintelekt"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 63,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty2",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Speed"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 86,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty3",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Liter"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 109,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty4",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Surv"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 132,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty5",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Willpower"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 156,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_skorost",
+          "text": {
+            "fixedValue": "скорость",
+            "name": "Numberspeed"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 95,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nachitanost",
+          "text": {
+            "fixedValue": "начитаность",
+            "name": "Numberliteracy"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 118,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_zhivuchiest",
+          "text": {
+            "fixedValue": "живучесть",
+            "name": "Numbersurvivability"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 141,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_sila_voli",
+          "text": {
+            "fixedValue": "сила воли",
+            "name": "Numberwillpower"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 165,
+          "locked": false
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "name": "button_empty6",
+          "text": "",
+          "isUndecorated": false,
+          "onClick": {
+            "name": "Agility"
+          },
+          "width": 18,
+          "height": 20,
+          "x": 114,
+          "y": 179,
+          "locked": false
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_agility",
+          "text": {
+            "fixedValue": "agility",
+            "name": "Numberagility"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 132,
+          "y": 188,
+          "locked": false
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}
